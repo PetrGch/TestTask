@@ -1,0 +1,11 @@
+.icons {
+  width: 65px;
+  float: right;
+  margin-top: 40px;
+  &__el {
+  	text-decoration: none;
+  	list-style: none;
+  	display: inline-block;
+  	padding: 5px;
+  }
+}

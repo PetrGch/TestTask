@@ -1,0 +1,53 @@
+/* line 1, info.scss */
+.info {
+  clear: both;
+  margin-top: 15px;
+}
+/* line 4, info.scss */
+.info__name {
+  width: 370px;
+  float: left;
+}
+/* line 8, info.scss */
+.info__name h1 {
+  display: inline-block;
+  font: bold 21px Verdana, Arial, sans-serif;
+  color: #000;
+}
+/* line 13, info.scss */
+.info__name a {
+  display: inline-block;
+  font: 12px Arial, sans-serif;
+  color: #000;
+  border-bottom: 1px solid #e10025;
+  margin-left: 5px;
+  text-decoration: none;
+}
+/* line 21, info.scss */
+.info__call {
+  width: 230px;
+  float: right;
+}
+/* line 25, info.scss */
+.info__call div {
+  display: inline-block;
+  float: right;
+}
+/* line 29, info.scss */
+.info__call h2 {
+  font: bold 18px Verdana, Arial, sans-serif;
+  color: #000;
+}
+/* line 33, info.scss */
+.info__call a {
+  font: 12px Arial, sans-serif;
+  color: #000;
+  border-bottom: 1px dashed #e10025;
+  float: left;
+  margin-top: 5px;
+  text-decoration: none;
+}
+/* line 41, info.scss */
+.info__call img {
+  margin: 5px 10px 0 0;
+}

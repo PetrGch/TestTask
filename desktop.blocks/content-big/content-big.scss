@@ -1,0 +1,43 @@
+.content-big {
+  width: 100%;
+  margin-top: 70px;
+  &__el {
+    width: 100%;
+  }
+  &__description {
+    & h2 {
+      font: bold 53px Verdana, Arial, sans-serif;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    & p {
+      font: bold 21px Verdana, Arial, sans-serif;
+      position: relative;
+      top: 0;
+      left: 0;
+    }
+    & a {
+      font: bold 14px Verdana, Arial, sans-serif;
+      position: relative;
+      color: #000;
+      top: 10px;
+      left: 0;
+      border-bottom: 1px solid #e10025;
+      width: 285px;
+      text-decoration: none;
+    }
+    & a:after {
+      content: '';
+      background: url(../../common.blocks/img/row.png) no-repeat;
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      margin: 3px 0 0 5px;
+    }
+  }
+}
+
+.content__pict {
+  padding-left: -30px;  
+}

@@ -1,0 +1,40 @@
+.main-nav {
+	width: 350px;
+  	height: 40px;
+  	border-radius: 20px;
+  	background: repeating-linear-gradient(0deg, rgb(241,241,241) 3px, rgb(233,233,233) 2px, transparent 8px);
+  	background: -moz-repeating-linear-gradient(0deg, rgb(241,241,241) 3px, rgb(233,233,233) 2px, transparent 8px);
+    background: -webkit-repeating-linear-gradient(0deg, rgb(241,241,241) 3px, rgb(233,233,233) 2px, transparent 8px);
+    background: -ms-repeating-linear-gradient(0deg, rgb(241,241,241) 3px, rgb(233,233,233) 2px, transparent 8px);
+    background: -o-repeating-linear-gradient(0deg, rgb(241,241,241) 3px, rgb(233,233,233) 2px, transparent 8px);
+
+
+    -moz-box-shadow: inset 0 0 30px rgb(245,245,245), 0 -4px 4px rgba(213,213,213, .7), inset 0 -10px 20px rgba(255,255,255, .7);
+    -webkit-box-shadow: inset 0 0 30px rgb(245,245,245), 0 -4px 4px rgba(213,213,213, .7), inset 0 -10px 20px rgba(255,255,255, .7);
+    box-shadow: inset 0 0 30px rgb(245,245,245), 0 -4px 4px rgba(213,213,213, .7), inset 0 -10px 20px rgba(255,255,255, .7);
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+  
+  	justify-content: space-between;
+  	&__el {
+  		padding: 0 8px;
+  	}
+  	&__el a {
+  		text-decoration: none;
+  		list-style: none;
+  		font: 11px Arial, sans-serif;
+  		color: #000;
+  		padding: 10px 5px;
+  		line-height: 40px;
+  	}
+  	&__el_check_true {
+  		border-radius: 20px;
+  		border: 3px solid #000;
+  		background: #fff;
+  		height: 30px;
+  	}
+  	&__el_check_true a {
+  		line-height: 35px;
+  	}
+}

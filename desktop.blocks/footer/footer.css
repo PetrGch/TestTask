@@ -1,0 +1,89 @@
+/* line 1, footer.scss */
+.footer {
+  width: 960px;
+  height: 265px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+}
+/* line 7, footer.scss */
+.footer__menu {
+  float: left;
+  width: 140px;
+  height: 160px;
+  margin-top: 30px;
+  font: 12px Arial, sans-serif;
+  color: #fff;
+}
+/* line 15, footer.scss */
+.footer__menu:nth-of-type(1) h3 {
+  padding-bottom: 10px;
+}
+/* line 18, footer.scss */
+.footer__auto li {
+  padding: 3px 0;
+}
+/* line 21, footer.scss */
+.footer__auto a {
+  text-decoration: none;
+  list-style: none;
+  font: 12px Arial, sans-serif;
+  color: #fff;
+}
+/* line 27, footer.scss */
+.footer__el li {
+  padding: 6px 0;
+}
+/* line 30, footer.scss */
+.footer__el li:nth-of-type(1) {
+  padding-top: 0;
+}
+/* line 33, footer.scss */
+.footer__el a {
+  text-decoration: none;
+  list-style: none;
+  font: 12px Arial, sans-serif;
+  color: #fff;
+}
+/* line 39, footer.scss */
+.footer__media {
+  float: right;
+  margin-top: 30px;
+}
+/* line 42, footer.scss */
+.footer__media a {
+  padding: 0 2px;
+}
+/* line 46, footer.scss */
+.footer__copyrating {
+  clear: both;
+  height: 50px;
+  width: 960px;
+  margin: 25px auto 0 auto;
+  border-top: 1px solid #fff;
+  clear: both;
+  font: 10px Verdana, Arial, sans-serif;
+  color: #d5d5d5;
+  position: absolute;
+  bottom: 0;
+}
+/* line 58, footer.scss */
+.footer__cpr {
+  float: left;
+  padding-top: 15px;
+}
+/* line 62, footer.scss */
+.footer__project {
+  float: right;
+  padding-top: 15px;
+}
+
+/* line 68, footer.scss */
+.footer_size_sm {
+  width: 820px;
+}
+
+/* line 72, footer.scss */
+.footer__copyrating_size_sm {
+  width: 820px;
+}

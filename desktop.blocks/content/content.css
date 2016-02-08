@@ -1,0 +1,70 @@
+/* line 1, content.scss */
+.content {
+  width: 700px;
+  margin: 50px 10px 0 10px;
+  float: left;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* line 12, content.scss */
+.content__el {
+  width: 700px;
+  height: 250px;
+  margin: 20px  0 30px 0;
+}
+/* line 17, content.scss */
+.content__description {
+  width: 300px;
+  height: 220px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  float: left;
+}
+/* line 23, content.scss */
+.content__description h2 {
+  font: bold 53px Verdana, Arial, sans-serif;
+  position: relative;
+  top: 40px;
+  left: 0;
+}
+/* line 29, content.scss */
+.content__description p {
+  font: bold 21px Verdana, Arial, sans-serif;
+  position: relative;
+  top: 30px;
+  left: 0;
+  margin-top: 15px;
+}
+/* line 36, content.scss */
+.content__description a {
+  font: bold 14px Verdana, Arial, sans-serif;
+  position: relative;
+  color: #000;
+  top: 40px;
+  left: 0;
+  margin-top: 15px;
+  border-bottom: 1px solid #e10025;
+  width: 285px;
+  text-decoration: none;
+}
+/* line 47, content.scss */
+.content__description a:after {
+  content: '';
+  background: url(../../common.blocks/img/row.png) no-repeat;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  margin: 3px 0 0 5px;
+}
+
+/* line 58, content.scss */
+.content__pict {
+  width: 380px;
+  height: 220px;
+  margin-bottom: 50px;
+  float: left;
+  padding-left: 20px;
+}

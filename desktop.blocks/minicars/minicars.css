@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* line 1, minicars.scss */
+.minicars {
+  clear: both;
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 980px;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  justify-content: space-between;
+}
+/* line 12, minicars.scss */
+.minicars__name {
+  font: bold 14px Arial, sans-serif;
+  color: #000;
+}
+/* line 16, minicars.scss */
+.minicars__el p {
+  font: bold 12px Arial, sans-serif;
+  color: #e10025;
+  padding-top: 10px;
+}
+
+/* line 23, minicars.scss */
+.minicars__name_share_true:after {
+  content: 'Акция';
+  font: bold 12px Arial, sans-serif;
+  color: #e17838;
+  padding-left: 5px;
+  position: relative;
+  top: -1px;
+}
+
+/* line 32, minicars.scss */
+.minicars_size_sm {
+  width: 820px;
+}

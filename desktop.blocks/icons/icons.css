@@ -1,0 +1,13 @@
+/* line 1, icons.scss */
+.icons {
+  width: 65px;
+  float: right;
+  margin-top: 40px;
+}
+/* line 5, icons.scss */
+.icons__el {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  padding: 5px;
+}

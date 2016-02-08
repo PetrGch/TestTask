@@ -1,0 +1,44 @@
+.info {
+  clear: both;
+  margin-top: 15px;
+  &__name {
+    width: 370px;
+    float: left;
+  }
+  &__name h1 {
+    display: inline-block;
+    font: bold 21px Verdana, Arial, sans-serif;
+    color: #000;
+  }
+  &__name a {
+    display: inline-block;
+    font: 12px Arial, sans-serif;
+    color: #000;
+    border-bottom: 1px solid #e10025;
+    margin-left: 5px;
+    text-decoration: none;
+  }
+  &__call {
+    width: 230px;
+    float: right;
+  }
+  &__call div {
+    display: inline-block;
+    float: right;
+  }
+  &__call h2 {
+    font:bold 18px Verdana, Arial, sans-serif;
+    color: #000;
+  }
+  &__call a {
+    font: 12px Arial, sans-serif;
+    color: #000;
+    border-bottom: 1px dashed #e10025;
+    float: left;
+    margin-top: 5px;
+    text-decoration: none;
+  }
+  &__call img {
+    margin: 5px 10px 0 0;
+  }
+}
